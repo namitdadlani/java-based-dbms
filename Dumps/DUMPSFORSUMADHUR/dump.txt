@@ -1,0 +1,9 @@
+-- DUMPS --
+-- User: sumadhur --
+
+
+{sumadhur={database={Olympics={name=null, id=null}}}}
+{sumadhur={database={Sports={name=null, id=null}}}}*(id int)(name text)*#PRIMARY KEY(id)
+{sumadhur={database={Cricket={name=null, id=null}}}}*(id int)(name text)*#FOREIGN KEY(id) REFERENCES (Sports)
+{sumadhur={database={Sports={name=null, id=null}}}}*(id int)(name text)*#PRIMARY KEY(id)
+{sumadhur={database={Cricket={name=null, id=null}}}}*(id int)(name text)*#FOREIGN KEY(id) REFERENCES (Sports)

@@ -1,0 +1,1 @@
+{Sports={name=null, id=null}}*(id int)(name text)*#PRIMARY KEY(id):{Sports={name=[cricket], id=[1]}}:{Sports={name=[cricket], id=[3]}}:{Sports={name=[TT], id=[2]}}:{Sports={name=[Baseball], id=[14]}}:{Sports={name=[Foosball], id=[5]}}

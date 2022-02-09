@@ -1,0 +1,10 @@
+USE database
+CREATE TABLE Sumadhur (id int,name text)
+INSERT INTO Sumadhur (name,id) VALUES (sumadhur,1)
+CREATE TABLE Cricket (id int,name text,FOREIGN KEY(id) REFERENCES (Sports))
+CREATE TABLE Sports (id int,name text,PRIMARY KEY(id))
+GENERATE ERD
+CREATE DUMPS
+SELECT * FROM Sumadhur
+* FROM SELECT Sumadhur
+CREATE TABLE ) Sumadhur (id int,name text)
